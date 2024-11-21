@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Definisikan jalur model
-model_path = r'best_model_tf.h55'
+model_path = r'best_model_tf.h5'
 
 # Muat model
 if os.path.exists(model_path):
